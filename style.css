@@ -92,6 +92,9 @@ h2 .help {
     grid-gap: 1rem;
     padding: 1rem;
 }
+.cards .card:last-child {
+    grid-column: 5 / 9;
+}
 .card {
     background: #151620;
     border-radius: 20px;
