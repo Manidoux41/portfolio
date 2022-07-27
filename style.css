@@ -162,4 +162,16 @@ h2 .help {
         display:flex;
         flex-direction: column;
     }
+    .website {
+        display:flex;
+        flex-direction: column;
+    }
+    .resto {
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+    }
+    .resto img {
+        max-width: 100%;
+    }
 }
