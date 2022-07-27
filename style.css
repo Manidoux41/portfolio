@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+body {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to bottom right, blue, #171b36) repeat fixed;
+  /* background: #181923; */
+  font-family: 'Heebo', sans-serif;
+}
+.wrapper {
+  max-width: 100%;
+  height: auto;
+  color:#E2E2E5;
+}
+
+/* HEADER */
+header {    
+    width:80%;
+    margin: 25px auto;
+    height: 470px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.presentation h1 {
+    font-weight: 700;
+    font-size: 4.3rem;
+}
+.presentation .slogan {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 2.1rem;
+}
+.presentation .pres {
+    width: 180px;
+    background: #C91151;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+.portrait {
+    objet-fit: left/cover;
+}
+.portrait img{
+    height: 470px;
+    clip-path:ellipse(50% 40%);
+}
+
+/* KNOWLEDGE */
+.knowledge {
+    font-family: 'Heebo', sans-serif;
+    width:80%;
+    margin: 120px auto;
+}
+.knowledge h2 {
+    font-weight:300;
+    font-size: 1.2rem;
+    color: #11C92E;
+    text-transform: uppercase;
+}
+h2 .help {
+    font-weight: 500;
+}
+.knowledge h3 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+.knowledge h4 {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 920px) {
+    header {
+        flex-direction: column;
+        height: 920px;
+    }
+}
