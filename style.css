@@ -112,6 +112,26 @@ h2 .help {
     font-weight: 300;
     color: #FFF;
 }
+
+/* PROJECTS */
+.projects {
+    font-family: 'Heebo', sans-serif;
+    min-height: 640px;
+    width:100%;
+    margin: 120px auto;
+    background: #FFF;
+}
+.projects .projects__wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.projects h2 {
+    font-weight:300;
+    font-size: 1.2rem;
+    color: #11C92E;
+    text-transform: uppercase;
+    padding-top: 45px;
+}
 @media screen and (max-width: 920px) {
     header {
         flex-direction: column;
