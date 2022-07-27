@@ -9,7 +9,7 @@
 body {
   width: 100%;
   height: auto;
-  background: linear-gradient(to bottom right, blue, #171b36) repeat fixed;
+  background: linear-gradient(to bottom right, blue, #06070e) repeat fixed;
   /* background: #181923; */
   font-family: 'Heebo', sans-serif;
 }
@@ -113,6 +113,7 @@ h2 .help {
     color: #FFF;
 }
 
+
 /* PROJECTS */
 .projects {
     font-family: 'Heebo', sans-serif;
@@ -131,7 +132,6 @@ h2 .help {
     color: #11C92E;
     text-transform: uppercase;
     padding-top: 45px;
-    text-align:center;
     margin: 15px
 }
 .website {
@@ -149,8 +149,24 @@ h2 .help {
 .resto img {
     max-width: 100%;
     border-radius: 20px;
-
 }
+
+/* ABOUT */
+.about {
+        font-family: 'Heebo', sans-serif;
+        width:80%;
+        margin: 0 auto;
+}
+.about h2 {
+        font-weight:300;
+        font-size: 1.2rem;
+        color: #11C92E;
+        text-transform: uppercase;
+    }
+
+
+    /* Media Queries */
+
 @media screen and (max-width: 920px) {
     header {
         flex-direction: column;
