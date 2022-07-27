@@ -131,6 +131,25 @@ h2 .help {
     color: #11C92E;
     text-transform: uppercase;
     padding-top: 45px;
+    text-align:center;
+    margin: 15px
+}
+.website {
+    margin-top: 45px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-row: 10vw;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+.resto {
+    grid-column: 1 / 7;
+}
+.resto img {
+    max-width: 100%;
+    border-radius: 20px;
+
 }
 @media screen and (max-width: 920px) {
     header {
