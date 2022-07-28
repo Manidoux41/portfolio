@@ -10,7 +10,7 @@ body {
   width: 100%;
   height: auto;
   background: linear-gradient(to bottom right, blue, #06070e) repeat fixed;
-  /* background: #181923; */
+  background: #181923;
   font-family: 'Heebo', sans-serif;
 }
 .wrapper {
