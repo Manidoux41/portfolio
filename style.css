@@ -146,7 +146,13 @@ h2 .help {
 .resto {
     grid-column: 1 / 7;
 }
-.resto img {
+.flag {
+    grid-column: span 6;
+}
+.cssgrid {
+    grid-column: span 3;
+}
+img {
     max-width: 100%;
     border-radius: 20px;
 }
@@ -189,5 +195,8 @@ h2 .help {
     }
     .resto img {
         max-width: 100%;
+    }
+    .cssgrid {
+        align-self:center;
     }
 }
