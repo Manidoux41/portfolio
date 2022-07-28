@@ -47,16 +47,18 @@ header {
     width: 180px;
     background: #C91151;
     border-radius: 5px;
+    border: none;
     color: #FFF;
     padding: 10px 10px;
     margin: 20px 0;
 }
 .portrait {
+    height: 470px;
     objet-fit: left/cover;
 }
-.portrait img{
-    height: 470px;
-    clip-path:ellipse(50% 40%);
+img{
+    max-height: 470px;
+    clip-path:ellipse(50% 40%);    
 }
 
 /* KNOWLEDGE */
