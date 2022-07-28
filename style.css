@@ -51,14 +51,18 @@ header {
     color: #FFF;
     padding: 10px 10px;
     margin: 20px 0;
+    cursor: pointer;
 }
 .portrait {
-    height: 470px;
-    objet-fit: left/cover;
+    height: 480px;
+    width: 400px;
+    objet-fit: bottom/contain;    
+    border-radius: 50%;
+    overflow:hidden;
 }
 .portrait img{
-    max-height: 470px;
-    clip-path:ellipse(50% 40%);    
+   width: 480px;
+
 }
 
 /* KNOWLEDGE */
