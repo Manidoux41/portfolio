@@ -37,6 +37,8 @@ header {
 .presentation h1 {
     font-weight: 700;
     font-size: 4.3rem;
+    text-shadow: 3px 3px 5px #18b640a2;
+
 }
 .presentation .slogan {
     font-family: 'Poppins', sans-serif;
@@ -59,6 +61,7 @@ header {
     objet-fit: bottom/contain;    
     border-radius: 50%;
     overflow:hidden;
+    box-shadow: 8px 1px 8px #18b640a2;
 }
 .portrait img{
    width: 480px;
@@ -76,6 +79,8 @@ header {
     font-size: 1.2rem;
     color: #11C92E;
     text-transform: uppercase;
+    text-shadow: 3px 3px 5px #06070e;
+
 }
 h2 .help {
     font-weight: 500;
@@ -117,6 +122,7 @@ h2 .help {
     font-size: 20px;
     font-weight: 300;
     color: #FFF;
+    text-shadow: 3px 3px 5px #06070e;
 }
 
 
@@ -138,7 +144,14 @@ h2 .help {
     color: #11C92E;
     text-transform: uppercase;
     padding-top: 45px;
-    margin: 15px
+    margin: 15px;
+    text-shadow: 3px 3px 5px #06070e;
+
+}
+h3 {
+    padding: 15px 0;
+    color:#11C92E;
+    text-shadow: 3px 3px 5px #06070e;
 }
 .website {
     margin-top: 45px;
@@ -174,6 +187,8 @@ img {
         font-size: 1.2rem;
         color: #11C92E;
         text-transform: uppercase;
+        text-shadow: 3px 3px 5px #06070e;
+
     }
 
 
