@@ -178,7 +178,14 @@ img {
 @media screen and (max-width: 920px) {
     header {
         flex-direction: column;
+        justify-content: center;
         height: 920px;
+    }
+    .presentation h1, .slogan{
+        text-align: center;
+    }
+    .presentation button {
+        align-self: center;
     }
 }
 @media screen and (max-width: 1000px) {
